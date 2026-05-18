@@ -20,7 +20,7 @@ export const proyectos: Proyecto[] = [
     enlaceDemo: "https://drag-and-drop-eosin-sigma.vercel.app/",
     imagenIlustrativa: dragImage
   },
-  {
+  {   
     titulo: "Task Manager",
     descripcion: "Aplicación de gestión de tareas con autenticación, colaboración en tiempo real.",
     tecnologiasUtilizadas: ["JavaScript", "API REST", "CSS"],
@@ -31,7 +31,7 @@ export const proyectos: Proyecto[] = [
   {
     titulo: "Weather Dashboard",
     descripcion: "Dashboard meteorológico interactivo para consultar el clima global en tiempo real, equipado con mapas dinámicos, gráficos de pronóstico y un diseño moderno estilo Glassmorphism.",
-    tecnologiasUtilizadas: ["Python", "FastAPI", "Tailwind CSS", "React", "Vite", "recharts"],
+    tecnologiasUtilizadas: ["Python", "FastAPI", "Tailwind CSS", "React", "Vite", "recharts", "PostgreSQL", "Docker"],
     enlaceGithub: "https://github.com/sebastianM33/Weather_Dashboard",
     enlaceDemo: "https://weather-dashboard-eight-topaz.vercel.app/",
     imagenIlustrativa: imageWeather,
