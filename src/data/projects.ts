@@ -1,5 +1,6 @@
 import type { ImageMetadata } from 'astro';
 import dragImage from '../assets/image.png';
+import imageWeather from '../assets/weather.png';
 
 export interface Proyecto {
   titulo: string;
@@ -29,10 +30,10 @@ export const proyectos: Proyecto[] = [
   },
   {
     titulo: "Weather Dashboard",
-    descripcion: "Dashboard del clima con gráficos interactivas y pronósticos de múltiples ciudades.",
-    tecnologiasUtilizadas: ["JavaScript", "API REST", "CSS"],
-    enlaceGithub: "https://github.com/tuusuario/weather-app",
-    enlaceDemo: "https://weather-app.vercel.app",
-    imagenIlustrativa: "img/weather-dashboard.jpg",
+    descripcion: "Dashboard meteorológico interactivo para consultar el clima global en tiempo real, equipado con mapas dinámicos, gráficos de pronóstico y un diseño moderno estilo Glassmorphism.",
+    tecnologiasUtilizadas: ["Python", "FastAPI", "Tailwind CSS", "React", "Vite", "recharts"],
+    enlaceGithub: "https://github.com/sebastianM33/Weather_Dashboard",
+    enlaceDemo: "https://weather-dashboard-eight-topaz.vercel.app/",
+    imagenIlustrativa: imageWeather,
   },
 ];
