@@ -15,7 +15,7 @@ export const proyectos: Proyecto[] = [
   {
     titulo: "Drag and Drop Builder",
     descripcion: "Constructor visual interactivo desarrollado con html y javascript que permite la gestión dinámica de elementos mediante una interfaz intuitiva de arrastrar y soltar.",
-    tecnologiasUtilizadas: ["JavaScript", "HTML", "Tailwind CSS"],
+    tecnologiasUtilizadas: ["JavaScript", "HTML", "CSS"],
     enlaceGithub: "https://github.com/sebastianM33/Drag_and_Drop",
     enlaceDemo: "https://drag-and-drop-eosin-sigma.vercel.app/",
     imagenIlustrativa: dragImage
@@ -31,7 +31,7 @@ export const proyectos: Proyecto[] = [
   {
     titulo: "Weather Dashboard",
     descripcion: "Dashboard meteorológico interactivo para consultar el clima global en tiempo real, equipado con mapas dinámicos, gráficos de pronóstico y un diseño moderno estilo Glassmorphism.",
-    tecnologiasUtilizadas: ["Python", "FastAPI", "Tailwind CSS", "React", "Vite", "recharts", "PostgreSQL", "Docker"],
+    tecnologiasUtilizadas: ["Python", "FastAPI", "Tailwind CSS", "React", "Vite", "recharts", "Docker"],
     enlaceGithub: "https://github.com/sebastianM33/Weather_Dashboard",
     enlaceDemo: "https://weather-dashboard-eight-topaz.vercel.app/",
     imagenIlustrativa: imageWeather,

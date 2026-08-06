@@ -10,13 +10,14 @@ const { tecnologia } = Astro.props;
 
 <div class="tarjeta-tecnologia visible">
   {tecnologia.imagenSrc ? (
-    <img
-      src={tecnologia.imagenSrc}
-      alt={tecnologia.nombre}
-      width="70"
-      height="70"
-      class={tecnologia.claseImagen ?? ""}
-    />
+    <div class={`icono-wrapper ${tecnologia.claseImagen ?? ""}`}>
+      <img
+        src={tecnologia.imagenSrc}
+        alt={tecnologia.nombre}
+        width="70"
+        height="70"
+      />
+    </div>
   ) : (
     <i class={`${tecnologia.claseIcono}`}></i>
   )}

@@ -440,9 +440,32 @@ nav {
   object-fit: contain;
 }
 
+.tarjeta-tecnologia .icono-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+.tarjeta-tecnologia .icono-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
 /* Filtros de color para SVGs externos */
 .icono-blanco  { filter: invert(1) brightness(2); }
 .icono-naranja { filter: invert(46%) sepia(97%) saturate(1700%) hue-rotate(359deg) brightness(103%) contrast(107%); }
+
+.fondo-blanco-circular {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.fondo-blanco-circular img {
+  width: 60% !important;
+  height: 60% !important;
+}
 
 /* SECCIÓN PROYECTOS*/
 .seccion-proyectos {

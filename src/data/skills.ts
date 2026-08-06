@@ -24,10 +24,6 @@ export const tecnologias: Tecnologia[] = [
     claseIcono: "devicon-mysql-original colored",
   },
   {
-    nombre: "MongoDB",
-    claseIcono: "devicon-mongodb-plain colored",
-  },
-  {
     nombre: "Docker",
     claseIcono: "devicon-docker-plain colored",
   },
@@ -36,20 +32,8 @@ export const tecnologias: Tecnologia[] = [
     claseIcono: "devicon-git-plain colored",
   },
   {
-    nombre: "Tailwind",
-    claseIcono: "devicon-tailwindcss-original colored",
-  },
-  {
     nombre: "JavaScript",
     claseIcono: "devicon-javascript-plain colored",
-  },
-  {
-    nombre: "Html",
-    claseIcono: "devicon-html5-plain colored",
-  },
-  {
-    nombre: "Css",
-    claseIcono: "devicon-css3-plain colored",
   },
   {
     nombre: "Figma",
@@ -66,6 +50,12 @@ export const tecnologias: Tecnologia[] = [
     claseIcono: "devicon-fastapi-plain colored",
   },
   {
+    nombre: "Render",
+    claseIcono: "",
+    imagenSrc: "https://cdn.simpleicons.org/render/000000",
+    claseImagen: "fondo-blanco-circular",
+  },
+  {
     nombre: "Django",
     claseIcono: "devicon-django-plain colored",
   },
@@ -76,13 +66,10 @@ export const tecnologias: Tecnologia[] = [
     claseImagen: "icono-blanco",
   },
   {
-    nombre: "Postman",
+    nombre: "Vercel",
     claseIcono: "",
-    imagenSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+    imagenSrc: "https://cdn.simpleicons.org/vercel/000000",
+    claseImagen: "fondo-blanco-circular",
   },
-  {
-    nombre: "DBeaver",
-    claseIcono: "",
-    imagenSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg",
-  },
+  
 ];
